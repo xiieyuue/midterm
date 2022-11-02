@@ -1,63 +1,153 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* ===============
-MY STYLES
-=================*/
-
+/*My awesome CSS!*/
 body {
     background-color: #aad4cf;
     font-family: Arial, Helvetica, sans-serif;
+	
+
 }
 
 .container{
-    width:1025px;
-    background-color: #d4e9e7;
-    margin:0 auto
+	background-color: #d4e9e7;
+	width: 1024px;
+    position: relative;
+    margin: 0 auto;
 }
+
+.navigation{
+	list-style-type: style none;
+}
+
+.home1{
+	display: inline;
+    margin: 100px;
+    font-size: 16pt;
+    padding: 10px;
+    line-height: 40px;
+   
+}
+
+.story1 {
+    display: inline;
+    font-size: 16pt;
+    padding: 10px;
+    padding-left: 145px;
+    padding-right: 145px;
+    line-height: 40px;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;}
+.contact1{
+		display: inline;
+		margin: 100px;
+		font-size: 16pt;
+		padding: 10px;
+		line-height: 40px;
+	   
+	}  
+
+h1 {
+    position: absolute;
+    top: 240px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 36pt;}
+
+
+
+h2 {
+	padding-top: 20px;
+    padding-left:10px;
+    width: 100%;
+    text-align: left;
+    font-size: 24pt;
+ }
+
+p{
+	padding:20px
+	font: size 1rem;
+	line: height 20px;
+	margin:20px;
+}
+
+#my-image{
+	float:left;
+	width: 200px;
+    height: 200px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+h3{
+	
+		padding-top: 20px;
+		padding-left: 10px;
+		width: 100%;
+		text-align: left;
+		font-size: 24pt;
+}
+
+
+	
+
+ul{
+	list-style: circle;
+}
+
+h4 {
+    padding-top: 10px;
+    padding: left 20px;
+    width: 100%;
+    text-align: left;
+    font-size: 24pt;
+    padding-bottom: 5px;}
+
+form {
+	border: 1px solid black;
+	margin: 10px;
+		padding: 10px;}
+
+input[type=text] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;}
+
+textarea {
+	width: 100%;
+    height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: white;
+	font-size: 16px;
+	resize: none;
+	margin: 8px 0;
+			}
+
+.p1{
+	font-size: 1rem;
+	line-height: 20px;
+	margin: 2px;}
+
+input[type="radio" i] {
+	background-color: initial;
+	cursor: default;
+	appearance: auto;
+	box-sizing: border-box;
+	margin: 3px 3px 0px 5px;
+	padding: initial;
+	border: initial;}
+
+input[type=submit] {
+	padding: 12px 20px;
+	margin: 15px 0;
+	border: 1px solid black;
+	background-color: #d4e9e7;
+    text-align:left;}
+
+footer{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: right;}
